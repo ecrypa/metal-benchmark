@@ -1,0 +1,126 @@
+
+STATISTICS:
+
+*** Semantic Analysis Stats:
+0 SFINAE diagnostics trapped.
+
+Number of memory regions: 0
+Bytes used: 0
+Bytes allocated: 0
+Bytes wasted: 0 (includes alignment, etc)
+
+*** Analysis Based Warnings Stats:
+0 functions analyzed (0 w/o CFGs).
+  0 CFG blocks built.
+  0 average CFG blocks per function.
+  0 max CFG blocks per function.
+0 functions analyzed for uninitialiazed variables
+  0 variables analyzed.
+  0 average variables per function.
+  0 max variables per function.
+  0 block visits.
+  0 average block visits per function.
+  0 max block visits per function.
+
+*** AST Context Stats:
+  73 types total.
+    60 Builtin types, 24 each (1440 bytes)
+    4 Complex types, 40 each (160 bytes)
+    5 Pointer types, 40 each (200 bytes)
+    1 ConstantArray types, 56 each (56 bytes)
+    1 FunctionProto types, 40 each (40 bytes)
+    2 Record types, 32 each (64 bytes)
+Total bytes = 1960
+0/0 implicit default constructors created
+0/0 implicit copy constructors created
+0/0 implicit move constructors created
+0/0 implicit copy assignment operators created
+0/0 implicit move assignment operators created
+0/0 implicit destructors created
+
+Number of memory regions: 2
+Bytes used: 4152
+Bytes allocated: 8192
+Bytes wasted: 4040 (includes alignment, etc)
+
+*** Decl Stats:
+  17 decls total.
+    1 ExternCContext decls, 72 each (72 bytes)
+    2 CXXRecord decls, 144 each (288 bytes)
+    5 Typedef decls, 88 each (440 bytes)
+    8 Field decls, 80 each (640 bytes)
+    1 Function decls, 160 each (160 bytes)
+Total bytes = 1600
+
+*** Stmt/Expr Stats:
+  1 stmts/exprs total.
+    1 CompoundStmt, 16 each (16 bytes)
+Total bytes = 16
+
+STATISTICS FOR 'empty_test_file.cpp':
+
+*** Preprocessor Stats:
+389 directives found:
+  386 #define.
+  0 #undef.
+  #include/#include_next/#import:
+    2 source files entered.
+    0 max include stack depth
+  0 #if/#ifndef/#ifdef.
+  0 #else/#elif.
+  0 #endif.
+  0 #pragma.
+0 #if/#ifndef#ifdef regions skipped
+0/0/0 obj/fn/builtin macros expanded, 0 on the fast path.
+0 token paste (##) operations performed, 0 on the fast path.
+
+Preprocessor Memory: 153466B total
+  BumpPtr: 122880
+  Macro Expanded Tokens: 384
+  Predefines Buffer: 12786
+  Macros: 16384
+  #pragma push_macro Info: 0
+  Poison Reasons: 1024
+  Comment Handlers: 8
+
+*** Identifier Table Stats:
+# Identifiers:   3440
+# Empty Buckets: 12944
+Hash density (#identifiers per bucket): 0.209961
+Ave identifier length: 20.697674
+Max identifier length: 39
+
+Number of memory regions: 55
+Bytes used: 212240
+Bytes allocated: 225280
+Bytes wasted: 13040 (includes alignment, etc)
+
+*** HeaderSearch Stats:
+1 files tracked.
+  0 #import/#pragma once files.
+  1 included exactly once.
+  1 max times a file is included.
+  0 #include/#include_next/#import.
+    0 #includes skipped due to the multi-include optimization.
+0 framework lookups.
+0 subframework lookups.
+
+*** Source Manager Stats:
+1 files mapped, 1 mem buffers mapped.
+3 local SLocEntry's allocated (72 bytes of capacity), 12804B of Sloc address space used.
+0 loaded SLocEntries allocated, 0B of Sloc address space used.
+14 bytes of files mapped, 0 files with line #'s computed, 0 files with macro args computed.
+FileID scans: 1 linear, 0 binary.
+
+
+*** File Manager Stats:
+1 real files found, 8 real dirs found.
+0 virtual files found, 0 virtual dirs found.
+10 dir lookups, 9 dir cache misses.
+2 file lookups, 2 file cache misses.
+
+===-------------------------------------------------------------------------===
+                          ... Statistics Collected ...
+===-------------------------------------------------------------------------===
+
+
